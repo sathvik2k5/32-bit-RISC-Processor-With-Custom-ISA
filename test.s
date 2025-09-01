@@ -1,0 +1,24 @@
+//Division using non-restoring algorithm
+LD R1,0(R0)
+LD R2,1(R0)
+XOR R4,R4,R4
+ADDI R4,#16
+SLI R2,#16
+
+ADD R3,R1,R0
+SRLI R3,#31
+
+SLI R1,#1
+BZ R3,#2
+ADD R1,R2,R1
+BR,#1
+SUB R1,R1,R2
+ADD R3,R1,R0
+SRLI R3,#31
+BPL R3,#1
+ADDI R1,#1
+ADDI R4,#-1
+BPL R4,#-13
+BZ R3,#1
+ADD R1,R2,R1
+HALT

@@ -1,0 +1,481 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Nov 13 15:49:56 2024
+# Process ID: 17424
+# Current directory: C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.runs/synth_1
+# Command line: vivado.exe -log Top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_module.tcl
+# Log file: C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.runs/synth_1/Top_module.vds
+# Journal file: C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.runs/synth_1\vivado.jou
+# Running On        :TheMob
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :16849 MB
+# Swap memory       :9126 MB
+# Total Virtual     :25976 MB
+# Available Virtual :6915 MB
+#-----------------------------------------------------------
+source Top_module.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 515.824 ; gain = 203.609
+Command: synth_design -top Top_module -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28596
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1392.754 ; gain = 448.902
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top_module' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CLK_div' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/CLK_div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'CLK_div' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/CLK_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Instr_Mem' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Instr_Mem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_2' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.runs/synth_1/.Xil/Vivado-17424-TheMob/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_2' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.runs/synth_1/.Xil/Vivado-17424-TheMob/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Instr_Mem' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Instr_Mem.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'RW1' does not match port width (1) of module 'Instr_Mem' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:33]
+INFO: [Synth 8-6157] synthesizing module 'Instr_decoder' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Instr_decoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Instr_decoder' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Instr_decoder.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'oper' does not match port width (6) of module 'Instr_decoder' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:34]
+WARNING: [Synth 8-689] width (5) of port connection 'func' does not match port width (6) of module 'Instr_decoder' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:34]
+INFO: [Synth 8-6157] synthesizing module 'MUX_2_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_2_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_2_1' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_2_1.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'sel' does not match port width (1) of module 'MUX_2_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:35]
+INFO: [Synth 8-6157] synthesizing module 'Register_bank' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Register_body.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Register_bank' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Register_body.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'en' does not match port width (1) of module 'Register_bank' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:36]
+WARNING: [Synth 8-689] width (4) of port connection 'R' does not match port width (1) of module 'Register_bank' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:36]
+WARNING: [Synth 8-689] width (4) of port connection 'W' does not match port width (1) of module 'Register_bank' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:36]
+WARNING: [Synth 8-689] width (32) of port connection 'read1' does not match port width (4) of module 'Register_bank' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:36]
+WARNING: [Synth 8-689] width (32) of port connection 'read2' does not match port width (4) of module 'Register_bank' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:36]
+WARNING: [Synth 8-689] width (32) of port connection 'write1' does not match port width (4) of module 'Register_bank' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:36]
+WARNING: [Synth 8-689] width (4) of port connection 'sel' does not match port width (1) of module 'MUX_2_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:37]
+WARNING: [Synth 8-689] width (4) of port connection 'sel' does not match port width (1) of module 'MUX_2_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:38]
+INFO: [Synth 8-6157] synthesizing module 'K_Alu' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/KAlu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Adder_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder_8bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Adder_8bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder_1bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'Adder_1bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'Adder_8bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Adder_8bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adder_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Adder_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Sub_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Sub_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Sub_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Sub_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'And_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/And_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'And_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/And_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Or_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Or_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Or_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Or_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Xor_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Xor_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Xor_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Xor_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'NOR_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/NOR_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'NOT_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/NOT_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'NOT_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/NOT_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'NOR_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/NOR_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Shift_left' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_left.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_32_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_left.v:38]
+INFO: [Synth 8-226] default block is never used [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_left.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_32_1' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_left.v:38]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_left.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'Shift_left' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_left.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Shift_right_logical' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_logical.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX__32_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_logical.v:38]
+INFO: [Synth 8-226] default block is never used [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_logical.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'MUX__32_1' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_logical.v:38]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_logical.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'Shift_right_logical' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_logical.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Shift_right_arith' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_arith.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX32_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_arith.v:46]
+INFO: [Synth 8-226] default block is never used [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_arith.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'MUX32_1' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_arith.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'Shift_right_arith' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_arith.v:23]
+INFO: [Synth 8-6157] synthesizing module 'INC_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/INC_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'INC_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/INC_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DEC_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/DEC_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DEC_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/DEC_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SLT_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/SLT_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SLT_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/SLT_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SGT_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/SGT_32bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SGT_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/SGT_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'HAM_32bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'HAM_8bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder_2bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'Adder_2bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v:51]
+INFO: [Synth 8-6157] synthesizing module 'Adder_3bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'Adder_3bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'HAM_8bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'cout' does not match port width (1) of module 'Adder_8bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v:34]
+WARNING: [Synth 8-689] width (8) of port connection 'cout' does not match port width (1) of module 'Adder_8bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v:35]
+WARNING: [Synth 8-689] width (8) of port connection 'cout' does not match port width (1) of module 'Adder_8bit' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'HAM_32bit' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_16_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_16_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_16_1' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_16_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'K_Alu' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/KAlu.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'sel' does not match port width (1) of module 'MUX_2_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:40]
+INFO: [Synth 8-6157] synthesizing module 'Comparator' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Comparator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Comparator' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Comparator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_4_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_4_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_4_1' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_4_1.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'A' does not match port width (1) of module 'MUX_4_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:42]
+INFO: [Synth 8-6157] synthesizing module 'Data_Memory' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Data_Memory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.runs/synth_1/.Xil/Vivado-17424-TheMob/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.runs/synth_1/.Xil/Vivado-17424-TheMob/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Data_Memory' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Data_Memory.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'ena' does not match port width (1) of module 'Data_Memory' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:45]
+WARNING: [Synth 8-689] width (4) of port connection 'wea' does not match port width (1) of module 'Data_Memory' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:45]
+WARNING: [Synth 8-689] width (4) of port connection 'sel' does not match port width (1) of module 'MUX_2_1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'main' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'en' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:38]
+WARNING: [Synth 8-689] width (1) of port connection 'en2' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:39]
+WARNING: [Synth 8-689] width (1) of port connection 'R' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:40]
+WARNING: [Synth 8-689] width (1) of port connection 'W' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:41]
+WARNING: [Synth 8-689] width (1) of port connection 'RW1' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:42]
+WARNING: [Synth 8-689] width (1) of port connection 'RW2' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:43]
+WARNING: [Synth 8-689] width (1) of port connection 'LoadPC' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:44]
+WARNING: [Synth 8-689] width (1) of port connection 'LoadIR' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:45]
+WARNING: [Synth 8-689] width (1) of port connection 'LoadLMD' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:46]
+WARNING: [Synth 8-689] width (1) of port connection 'WritePort' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:47]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteData' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:48]
+WARNING: [Synth 8-689] width (1) of port connection 'ldA' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:49]
+WARNING: [Synth 8-689] width (1) of port connection 'ldB' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:50]
+WARNING: [Synth 8-689] width (1) of port connection 'SelComp' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:51]
+WARNING: [Synth 8-689] width (1) of port connection 'SelPC' does not match port width (4) of module 'main' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:52]
+INFO: [Synth 8-6157] synthesizing module 'Control_path' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Control_path.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Control_path.v:208]
+INFO: [Synth 8-6155] done synthesizing module 'Control_path' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Control_path.v:22]
+WARNING: [Synth 8-689] width (5) of port connection 'func1' does not match port width (6) of module 'Control_path' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:81]
+WARNING: [Synth 8-689] width (5) of port connection 'opcode1' does not match port width (6) of module 'Control_path' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'Top_module' (0#1) [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:23]
+WARNING: [Synth 8-3848] Net MFC1 in module/entity main does not have driver. [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:24]
+WARNING: [Synth 8-3848] Net MFC2 in module/entity main does not have driver. [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:24]
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Control_path.v:224]
+WARNING: [Synth 8-7129] Port MFC1 in module Control_path is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MFC2 in module Control_path is either unconnected or has no load
+WARNING: [Synth 8-7129] Port func1[5] in module Control_path is either unconnected or has no load
+WARNING: [Synth 8-7129] Port opcode1[5] in module Control_path is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MFC1 in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MFC2 in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en2[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en2[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en2[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW1[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW1[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW1[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW2[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW2[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW2[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LoadPC[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LoadPC[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LoadPC[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WritePort[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WritePort[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WritePort[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WriteData[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WriteData[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WriteData[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldA[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldA[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldA[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldB[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldB[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldB[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelComp[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelComp[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelComp[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelPC[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelPC[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelPC[1] in module main is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1516.000 ; gain = 572.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1516.000 ; gain = 572.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1516.000 ; gain = 572.148
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 1516.000 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'm/d1/single_port_bram'
+Finished Parsing XDC File [c:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'm/d1/single_port_bram'
+Parsing XDC File [c:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.gen/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'm/i1/single_port_brom'
+Finished Parsing XDC File [c:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.gen/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'm/i1/single_port_brom'
+Parsing XDC File [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/constrs_1/new/timing.xdc]
+Finished Parsing XDC File [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/constrs_1/new/timing.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/constrs_1/new/timing.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_module_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_module_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1616.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1616.102 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for m/d1/single_port_bram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for m/i1/single_port_brom. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Control_path'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                               00 |                               00
+                      s1 |                               01 |                               01
+                      s2 |                               10 |                               10
+                      s3 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Control_path'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:28 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 468   
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	               32 Bit    Registers := 25    
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 8     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	  10 Input    6 Bit        Muxes := 1     
+	  10 Input    5 Bit        Muxes := 3     
+	   6 Input    5 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	  14 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 23    
+	   4 Input    1 Bit        Muxes := 18    
+	  14 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port MFC1 in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port MFC2 in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en2[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en2[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port en2[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port R[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port W[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW1[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW1[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW1[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW2[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW2[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RW2[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LoadPC[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LoadPC[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LoadPC[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WritePort[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WritePort[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WritePort[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WriteData[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WriteData[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WriteData[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldA[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldA[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldA[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldB[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldB[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ldB[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelComp[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelComp[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelComp[1] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelPC[3] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelPC[2] in module main is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SelPC[1] in module main is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:59 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:01:10 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:13 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:01:15 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:01:25 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:01:25 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:01:25 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:01:25 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:01:25 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:01:25 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |blk_mem_gen_1 |         1|
+|2     |blk_mem_gen_2 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |blk_mem_gen |     2|
+|3     |BUFG        |     3|
+|4     |CARRY4      |    15|
+|5     |LUT1        |    59|
+|6     |LUT2        |    49|
+|7     |LUT3        |   173|
+|8     |LUT4        |    59|
+|9     |LUT5        |   467|
+|10    |LUT6        |   758|
+|11    |MUXF7       |   230|
+|12    |MUXF8       |    65|
+|13    |FDRE        |   723|
+|14    |FDSE        |    36|
+|15    |IBUF        |     7|
+|16    |OBUF        |    16|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:01:25 . Memory (MB): peak = 1616.102 ; gain = 672.250
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 42 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:01:21 . Memory (MB): peak = 1616.102 ; gain = 572.148
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:01:25 . Memory (MB): peak = 1616.102 ; gain = 672.250
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1616.102 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 310 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1616.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 9082359c
+INFO: [Common 17-83] Releasing license: Synthesis
+98 Infos, 129 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:30 . Memory (MB): peak = 1616.102 ; gain = 1088.359
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1616.102 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.runs/synth_1/Top_module.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Top_module_utilization_synth.rpt -pb Top_module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 13 15:51:37 2024...

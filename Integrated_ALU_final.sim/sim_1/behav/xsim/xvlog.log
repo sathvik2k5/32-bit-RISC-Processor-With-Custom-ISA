@@ -1,0 +1,72 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.gen/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Adder_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Adder_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_8bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/And_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module And_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/CLK_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLK_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/DEC_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DEC_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAM_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAM_8bit
+INFO: [VRFC 10-311] analyzing module Adder_1bit
+INFO: [VRFC 10-311] analyzing module Adder_2bit
+INFO: [VRFC 10-311] analyzing module Adder_3bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/INC_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INC_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Instr_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instr_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Instr_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instr_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/KAlu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module K_Alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_16_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_16_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/MUX_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/NOR_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/NOT_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Or_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Or_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Register_body.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_bank
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/SGT_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SGT_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/SLT_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SLT_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_left.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift_left
+INFO: [VRFC 10-311] analyzing module MUX_32_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_arith.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift_right_arith
+INFO: [VRFC 10-311] analyzing module MUX32_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Shift_right_logical.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift_right_logical
+INFO: [VRFC 10-311] analyzing module MUX__32_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Sub_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sub_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Xor_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Xor_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sim_1/new/control_path_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path_tb

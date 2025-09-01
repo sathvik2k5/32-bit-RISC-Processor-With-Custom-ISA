@@ -1,0 +1,33 @@
+//Multiplication using Booths algorithm for signed numbers
+LD R1,0(R0)
+LD R2,1(R0)
+
+ANDI R1,#65535
+
+SLI R2,#16
+
+XOR R6,R6,R6
+ADDI R6,#16
+
+XOR R3,R3,R3
+
+ADD R4,R1,R0
+ANDI R4,#1
+
+XOR R5,R3,R4
+BZ R5,#4
+BZ R3,#2
+
+ADD R1,R2,R1
+BZ R4,#1
+
+SUB R1,R1,R2
+
+ADD R3,R4,R0
+SRAI R1,#1
+
+SUBI R6,#1
+
+BPL R6,#-12
+
+HALT

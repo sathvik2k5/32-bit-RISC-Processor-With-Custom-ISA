@@ -1,0 +1,95 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot control_path_tb_behav xil_defaultlib.control_path_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'en' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:38]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'en2' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:39]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'R' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:40]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'W' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:41]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'RW1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:42]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'RW2' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:43]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'LoadPC' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:44]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'LoadIR' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:45]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'LoadLMD' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:46]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'WritePort' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:47]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'WriteData' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:48]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ldA' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:49]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ldB' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:50]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'SelComp' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:51]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'SelPC' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:52]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'RW1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:33]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 3 for port 'addra' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Instr_Mem.v:30]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'oper' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:34]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'sel' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:35]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'en' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:36]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/KAlu.v:34]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/INC_32bit.v:28]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v:34]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v:35]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/HAM_32bit.v:37]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'A' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:42]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'ena' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:45]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'func1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:81]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'opcode1' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/Top_module.v:82]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'sel' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:37]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'sel' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:38]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'sel' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:40]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'sel' [C:/Users/SATHVIK/OneDrive/Desktop/Integrated_ALU_final/Integrated_ALU_final.srcs/sources_1/new/main.v:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CLK_div
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_2
+Compiling module xil_defaultlib.Instr_Mem
+Compiling module xil_defaultlib.Instr_decoder
+Compiling module xil_defaultlib.MUX_2_1
+Compiling module xil_defaultlib.Register_bank
+Compiling module xil_defaultlib.Adder_1bit
+Compiling module xil_defaultlib.Adder_8bit
+Compiling module xil_defaultlib.Adder_32bit
+Compiling module xil_defaultlib.Sub_32bit
+Compiling module xil_defaultlib.And_32bit
+Compiling module xil_defaultlib.Or_32bit
+Compiling module xil_defaultlib.Xor_32bit
+Compiling module xil_defaultlib.NOT_32bit
+Compiling module xil_defaultlib.NOR_32bit
+Compiling module xil_defaultlib.MUX_32_1
+Compiling module xil_defaultlib.Shift_left_default
+Compiling module xil_defaultlib.MUX__32_1
+Compiling module xil_defaultlib.Shift_right_logical_default
+Compiling module xil_defaultlib.MUX32_1
+Compiling module xil_defaultlib.Shift_right_arith_default
+Compiling module xil_defaultlib.INC_32bit
+Compiling module xil_defaultlib.DEC_32bit
+Compiling module xil_defaultlib.SLT_32bit
+Compiling module xil_defaultlib.SGT_32bit
+Compiling module xil_defaultlib.Adder_2bit
+Compiling module xil_defaultlib.Adder_3bit
+Compiling module xil_defaultlib.HAM_8bit
+Compiling module xil_defaultlib.HAM_32bit
+Compiling module xil_defaultlib.MUX_16_1
+Compiling module xil_defaultlib.K_Alu
+Compiling module xil_defaultlib.Comparator
+Compiling module xil_defaultlib.MUX_4_1
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_1
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.Control_path
+Compiling module xil_defaultlib.Top_module
+Compiling module xil_defaultlib.control_path_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot control_path_tb_behav

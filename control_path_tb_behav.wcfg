@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="control_path_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="control_path_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="505.050 ns"></ZoomStartTime>
+      <ZoomEndTime time="523.071 ns"></ZoomEndTime>
+      <Cursor1Time time="959.035 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="93" />
+   <wvobject fp_name="/control_path_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/out" type="array">
+      <obj_property name="ElementShortName">out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/en2" type="logic">
+      <obj_property name="ElementShortName">en2</obj_property>
+      <obj_property name="ObjectShortName">en2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/R" type="logic">
+      <obj_property name="ElementShortName">R</obj_property>
+      <obj_property name="ObjectShortName">R</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/W" type="logic">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/RW1" type="logic">
+      <obj_property name="ElementShortName">RW1</obj_property>
+      <obj_property name="ObjectShortName">RW1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/RW2" type="logic">
+      <obj_property name="ElementShortName">RW2</obj_property>
+      <obj_property name="ObjectShortName">RW2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/LoadPC" type="logic">
+      <obj_property name="ElementShortName">LoadPC</obj_property>
+      <obj_property name="ObjectShortName">LoadPC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/LoadIR" type="logic">
+      <obj_property name="ElementShortName">LoadIR</obj_property>
+      <obj_property name="ObjectShortName">LoadIR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/LoadLMD" type="logic">
+      <obj_property name="ElementShortName">LoadLMD</obj_property>
+      <obj_property name="ObjectShortName">LoadLMD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/WritePort" type="logic">
+      <obj_property name="ElementShortName">WritePort</obj_property>
+      <obj_property name="ObjectShortName">WritePort</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/WriteData" type="logic">
+      <obj_property name="ElementShortName">WriteData</obj_property>
+      <obj_property name="ObjectShortName">WriteData</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/ldA" type="logic">
+      <obj_property name="ElementShortName">ldA</obj_property>
+      <obj_property name="ObjectShortName">ldA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/ldB" type="logic">
+      <obj_property name="ElementShortName">ldB</obj_property>
+      <obj_property name="ObjectShortName">ldB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/SelComp" type="logic">
+      <obj_property name="ElementShortName">SelComp</obj_property>
+      <obj_property name="ObjectShortName">SelComp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/SelSignal" type="array">
+      <obj_property name="ElementShortName">SelSignal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SelSignal[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/SelPC" type="logic">
+      <obj_property name="ElementShortName">SelPC</obj_property>
+      <obj_property name="ObjectShortName">SelPC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/Func" type="array">
+      <obj_property name="ElementShortName">Func[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Func[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/MFC1" type="logic">
+      <obj_property name="ElementShortName">MFC1</obj_property>
+      <obj_property name="ObjectShortName">MFC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/MFC2" type="logic">
+      <obj_property name="ElementShortName">MFC2</obj_property>
+      <obj_property name="ObjectShortName">MFC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/func" type="array">
+      <obj_property name="ElementShortName">func[4:0]</obj_property>
+      <obj_property name="ObjectShortName">func[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/oper" type="array">
+      <obj_property name="ElementShortName">oper[4:0]</obj_property>
+      <obj_property name="ObjectShortName">oper[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/ans" type="array">
+      <obj_property name="ElementShortName">ans[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/readport1" type="array">
+      <obj_property name="ElementShortName">readport1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readport1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/readport2" type="array">
+      <obj_property name="ElementShortName">readport2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readport2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/writeport1" type="array">
+      <obj_property name="ElementShortName">writeport1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeport1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/read1" type="array">
+      <obj_property name="ElementShortName">read1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/read2" type="array">
+      <obj_property name="ElementShortName">read2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/write1" type="array">
+      <obj_property name="ElementShortName">write1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/rd" type="array">
+      <obj_property name="ElementShortName">rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/ALU_input1" type="array">
+      <obj_property name="ElementShortName">ALU_input1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_input1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/ALU_input2" type="array">
+      <obj_property name="ElementShortName">ALU_input2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_input2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/ALU_out" type="array">
+      <obj_property name="ElementShortName">ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/comp_input2" type="array">
+      <obj_property name="ElementShortName">comp_input2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">comp_input2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/Mem_out" type="array">
+      <obj_property name="ElementShortName">Mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/Instr_mem_out" type="array">
+      <obj_property name="ElementShortName">Instr_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/LMD" type="array">
+      <obj_property name="ElementShortName">LMD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LMD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/NPC" type="array">
+      <obj_property name="ElementShortName">NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/PCInput" type="array">
+      <obj_property name="ElementShortName">PCInput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCInput[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/Imm" type="array">
+      <obj_property name="ElementShortName">Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/lt" type="logic">
+      <obj_property name="ElementShortName">lt</obj_property>
+      <obj_property name="ObjectShortName">lt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/eq" type="logic">
+      <obj_property name="ElementShortName">eq</obj_property>
+      <obj_property name="ObjectShortName">eq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/gt" type="logic">
+      <obj_property name="ElementShortName">gt</obj_property>
+      <obj_property name="ObjectShortName">gt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/PcMuxSel" type="logic">
+      <obj_property name="ElementShortName">PcMuxSel</obj_property>
+      <obj_property name="ObjectShortName">PcMuxSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/carry" type="logic">
+      <obj_property name="ElementShortName">carry</obj_property>
+      <obj_property name="ObjectShortName">carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/MFC1" type="logic">
+      <obj_property name="ElementShortName">MFC1</obj_property>
+      <obj_property name="ObjectShortName">MFC1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/MFC2" type="logic">
+      <obj_property name="ElementShortName">MFC2</obj_property>
+      <obj_property name="ObjectShortName">MFC2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/en2" type="logic">
+      <obj_property name="ElementShortName">en2</obj_property>
+      <obj_property name="ObjectShortName">en2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/R" type="logic">
+      <obj_property name="ElementShortName">R</obj_property>
+      <obj_property name="ObjectShortName">R</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/W" type="logic">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/RW1" type="logic">
+      <obj_property name="ElementShortName">RW1</obj_property>
+      <obj_property name="ObjectShortName">RW1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/RW2" type="logic">
+      <obj_property name="ElementShortName">RW2</obj_property>
+      <obj_property name="ObjectShortName">RW2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/LoadPC" type="logic">
+      <obj_property name="ElementShortName">LoadPC</obj_property>
+      <obj_property name="ObjectShortName">LoadPC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/LoadIR" type="logic">
+      <obj_property name="ElementShortName">LoadIR</obj_property>
+      <obj_property name="ObjectShortName">LoadIR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/LoadLMD" type="logic">
+      <obj_property name="ElementShortName">LoadLMD</obj_property>
+      <obj_property name="ObjectShortName">LoadLMD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/WritePort" type="logic">
+      <obj_property name="ElementShortName">WritePort</obj_property>
+      <obj_property name="ObjectShortName">WritePort</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/WriteData" type="logic">
+      <obj_property name="ElementShortName">WriteData</obj_property>
+      <obj_property name="ObjectShortName">WriteData</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/ldA" type="logic">
+      <obj_property name="ElementShortName">ldA</obj_property>
+      <obj_property name="ObjectShortName">ldA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/ldB" type="logic">
+      <obj_property name="ElementShortName">ldB</obj_property>
+      <obj_property name="ObjectShortName">ldB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/SelComp" type="logic">
+      <obj_property name="ElementShortName">SelComp</obj_property>
+      <obj_property name="ObjectShortName">SelComp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/SelSignal" type="array">
+      <obj_property name="ElementShortName">SelSignal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SelSignal[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/SelPC" type="logic">
+      <obj_property name="ElementShortName">SelPC</obj_property>
+      <obj_property name="ObjectShortName">SelPC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/Func" type="array">
+      <obj_property name="ElementShortName">Func[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Func[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/func" type="array">
+      <obj_property name="ElementShortName">func[4:0]</obj_property>
+      <obj_property name="ObjectShortName">func[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/c1/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/R" type="logic">
+      <obj_property name="ElementShortName">R</obj_property>
+      <obj_property name="ObjectShortName">R</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/W" type="logic">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/read1" type="array">
+      <obj_property name="ElementShortName">read1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/read2" type="array">
+      <obj_property name="ElementShortName">read2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">read2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/write1" type="array">
+      <obj_property name="ElementShortName">write1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">write1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/writeport" type="array">
+      <obj_property name="ElementShortName">writeport[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeport[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/readport1" type="array">
+      <obj_property name="ElementShortName">readport1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readport1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/readport2" type="array">
+      <obj_property name="ElementShortName">readport2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readport2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/ans" type="array">
+      <obj_property name="ElementShortName">ans[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/register" type="array">
+      <obj_property name="ElementShortName">register[15:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[15:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_path_tb/t1/m/r1/register[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/readp1" type="array">
+      <obj_property name="ElementShortName">readp1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readp1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_path_tb/t1/m/r1/readp2" type="array">
+      <obj_property name="ElementShortName">readp2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readp2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
